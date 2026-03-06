@@ -1,27 +1,28 @@
-# Apple, Tesla, Microsoft Financial Analysis
+# Apple, Tesla, and Microsoft Financial Analysis
 
-## Overview
+## Project Overview
 
 This project analyzes the financial performance of three major technology companies:
 
-* Apple
-* Tesla
-* Microsoft
+- Apple
+- Tesla
+- Microsoft
 
-The analysis focuses on key financial metrics such as revenue growth, profitability, financial leverage, and operating cash flow.
-The goal of this project is to demonstrate financial data analysis using Python.
+The analysis focuses on key financial metrics including revenue growth, profitability, financial leverage, and operating cash flow.
+
+The objective of this project is to demonstrate financial data analysis using **Python, Pandas, Matplotlib, Excel, and Tableau**.
 
 ---
 
 ## Dataset
 
-The dataset contains financial data from 2022 to 2024 including:
+The dataset contains financial data from **2022 to 2024**, including:
 
-* Total Revenue
-* Net Income
-* Total Assets
-* Total Liabilities
-* Operating Cash Flow
+- Total Revenue
+- Net Income
+- Total Assets
+- Total Liabilities
+- Operating Cash Flow
 
 Each record represents the financial performance of a company in a specific year.
 
@@ -29,7 +30,6 @@ Each record represents the financial performance of a company in a specific year
 
 ## Project Structure
 
-```
 apple-tesla-microsoft-financial-analysis
 
 charts
@@ -38,6 +38,9 @@ charts
 ├── profit_margin_trend.png
 ├── debt_ratio_trend.png
 └── cashflow_trend.png
+
+dashboard
+└── FINANCIAL_PERFORMANCE_ANALYSIS:_APPLE_VS_MICROSOFT_VS_TESLA_(2022-2024)
 
 dataset
 └── financial_data.csv
@@ -56,94 +59,126 @@ scripts
 ├── profit_margin_analysis.py
 ├── debt_ratio_analysis.py
 └── cashflow_analysis.py
-FINANCIAL_PERFORMANCE_ANALYSIS:_APPLE_VS_MICROSOFT_VS_TESLA_(2022-2024).PNG
 
 README.md
 
 requirements.txt
 
-```
-
 ---
 
-## Financial Analysis Performed
+## Financial Analysis
 
-### 1. Revenue Analysis
+### Revenue Analysis
 
-Analyzes company revenue over time and compares revenue growth among companies.
+Analyzes company revenue trends and compares revenue growth across companies.
 
-### 2. Net Income Analysis
+### Net Income Analysis
 
-Examines profitability and how net income changes year by year.
+Evaluates company profitability and its changes over time.
 
-### 3. Profit Margin Analysis
+### Profit Margin Analysis
 
-Calculates profit margin to measure business efficiency.
+Measures business efficiency.
+
+Formula:
 
 Profit Margin = Net Income / Revenue
 
-### 4. Debt Ratio Analysis
+### Debt Ratio Analysis
 
-Measures financial leverage and risk.
+Measures financial leverage and company risk.
+
+Formula:
 
 Debt Ratio = Total Liabilities / Total Assets
 
-### 5. Operating Cash Flow Analysis
+### Operating Cash Flow Analysis
 
 Evaluates the company's ability to generate cash from operations.
 
 ---
 
-## Tools Used
+## Data Visualization
 
-* Python
-* Pandas
-* Matplotlib
-* numpy
-* excel
-* tableau
+### Revenue Growth Comparison
+
+![Revenue Growth](charts/revenue_growth.png)
+
+### Net Income Trend
+
+![Net Income](charts/net_income_trend.png)
+
+### Profit Margin Comparison
+
+![Profit Margin](charts/profit_margin_trend.png)
+
+### Debt Ratio Comparison
+
+![Debt Ratio](charts/debt_ratio_trend.png)
+
+### Operating Cash Flow Trend
+
+![Cashflow](charts/cashflow_trend.png)
+
+---
+
+## Tableau Dashboard
+
+An interactive dashboard was created using **Tableau** to visualize the financial performance of Apple, Tesla, and Microsoft.
+
+The dashboard includes:
+
+- Revenue comparison
+- Profit margin analysis
+- Debt ratio comparison
+- Cash flow trends
+
+Dashboard file can be found in the **dashboard** folder.
+
+---
+
+## Tools and Technologies
+
+- Python
+- Pandas
+- Matplotlib
+- Excel
+- Tableau
 
 ---
 
 ## How to Run the Project
 
-1. Clone the repository
+### 1 Clone the repository
 
-```
-git clone https://github.com/yourusername/apple-tesla-microsoft-financial-analysis.git
-```
+git clone https://github.com/zakkyakbar/apple-tesla-microsoft-financial-analysis.git
 
-2. Install dependencies
+### 2 Install dependencies
 
-```
 pip install pandas matplotlib
-```
 
-3. Run the main analysis script
+### 3 Run the analysis
 
-```
 python scripts/analysis.py
-```
 
 ---
 
 ## Key Insights
 
-* Apple generates the highest revenue among the analyzed companies.
-* Microsoft shows stable financial growth and strong profitability.
-* Tesla demonstrates rapid revenue growth but more volatility in financial metrics.
+- Apple generates the highest revenue among the analyzed companies.
+- Microsoft shows stable financial growth and strong profitability.
+- Tesla demonstrates rapid revenue growth but higher volatility compared to the others.
 
 ---
 
-## Purpose of the Project
+## Project Purpose
 
 This project demonstrates:
 
-* Financial data analysis
-* Data cleaning and preprocessing
-* Financial ratio analysis
-* Data visualization using Python
+- Financial data analysis
+- Data cleaning and preprocessing
+- Financial ratio analysis
+- Data visualization
 
-It serves as a portfolio project for aspiring **Data Analysts and Financial Analysts**.
+This project was developed as part of my **Data Analyst and Financial Analyst portfolio** to demonstrate the ability to analyze financial datasets and extract meaningful insights.
 
----
