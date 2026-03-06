@@ -103,6 +103,8 @@ Evaluates the company's ability to generate cash from operations.
 * Python
 * Pandas
 * Matplotlib
+* excel
+* tableau
 
 ---
 
@@ -111,7 +113,7 @@ Evaluates the company's ability to generate cash from operations.
 1. Clone the repository
 
 ```
-git clone https://github.com/yourusername/apple-tesla-microsoft-financial-analysis.git
+git clone https://github.com/zakkyakbar/apple-tesla-microsoft-financial-analysis.git
 ```
 
 2. Install dependencies
