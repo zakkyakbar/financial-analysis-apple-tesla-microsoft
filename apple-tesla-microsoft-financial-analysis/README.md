@@ -99,6 +99,9 @@ Evaluates the company's ability to generate cash from operations.
 * Python
 * Pandas
 * Matplotlib
+* numpy
+* excel
+* tableau
 
 ---
 
