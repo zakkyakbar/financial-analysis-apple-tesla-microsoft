@@ -59,6 +59,7 @@ scripts
 ├── profit_margin_analysis.py
 ├── debt_ratio_analysis.py
 └── cashflow_analysis.py
+
 FINANCIAL_PERFORMANCE_ANALYSIS:_APPLE_VS_MICROSOFT_VS_TESLA_(2022-2024).PNG
 
 README.md
