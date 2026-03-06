@@ -32,16 +32,15 @@ Each record represents the financial performance of a company in a specific year
 ```
 apple-tesla-microsoft-financial-analysis
 
-data
-└── financial_data.csv
+charts
+├── revenue_growth.png
+├── net_income_trend.png
+├── profit_margin_trend.png
+├── debt_ratio_trend.png
+└── cashflow_trend.png
 
-scripts
-├── analysis.py
-├── revenue_analysis.py
-├── net_income_analysis.py
-├── profit_margin_analysis.py
-├── debt_ratio_analysis.py
-└── cashflow_analysis.py
+dataset
+└── financial_data.csv
 
 outputs
 ├── revenue_data.csv
@@ -50,12 +49,19 @@ outputs
 ├── debt_ratio_data.csv
 └── cashflow_data.csv
 
-charts
-├── revenue_growth.png
-├── net_income_trend.png
-├── profit_margin_trend.png
-├── debt_ratio_trend.png
-└── cashflow_trend.png
+scripts
+├── analysis.py
+├── revenue_analysis.py
+├── net_income_analysis.py
+├── profit_margin_analysis.py
+├── debt_ratio_analysis.py
+└── cashflow_analysis.py
+FINANCIAL_PERFORMANCE_ANALYSIS:_APPLE_VS_MICROSOFT_VS_TESLA_(2022-2024).PNG
+
+README.md
+
+requirements.txt
+
 ```
 
 ---
