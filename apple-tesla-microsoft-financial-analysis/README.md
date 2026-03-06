@@ -28,6 +28,8 @@ Each record represents the financial performance of a company in a specific year
 
 ---
 
+```
+
 ## Project Structure
 
 apple-tesla-microsoft-financial-analysis
@@ -62,6 +64,8 @@ FINANCIAL_PERFORMANCE_ANALYSIS:_APPLE_VS_MICROSOFT_VS_TESLA_(2022-2024).PNG
 README.md
 
 requirements.txt
+
+```
 
 ---
 
